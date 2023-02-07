@@ -114,9 +114,9 @@
 		
 		<plugins>
 			<plugin>
-				<plugin-groupId>org.apache.maven</plugins-groupId>
-				<plugin-artifactId>maven-compiler</plugin-artifactId>
-				<plugin-version>3.3</plugin-version>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-compiler</artifactId>
+				<version>3.3<version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
@@ -124,9 +124,9 @@
 			</plugin>
 
 			<plugin>
-				<plugin-groupId>org.eclipse.jetty</plugin-groupId>
-				<plugin-artifactId>jetty-maven</plugin-artifactId>
-				<plugin-version>9.2.11.v20150529</plugin-version>
+				<groupId>org.eclipse.jetty</groupId>
+				<plugin-artifactId>jetty-maven</artifactId>
+				<pversion>9.2.11.v20150529</version>
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
