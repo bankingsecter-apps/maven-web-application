@@ -85,10 +85,9 @@
 		<!-- provided dependencies -->
 
 		<dependency>
-			<groupId>javax.servlet-api:jar</groupId>
-			<artifactId>javax.servlet-api:jar</artifactId>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet</artifactId>
 			<version>3.1.0</version>
-			<scope>provided</scope>
 		</dependency>
 		
 	</dependencies>
